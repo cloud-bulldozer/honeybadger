@@ -30,7 +30,7 @@ spec:
       serviceAccountName: benchmark-operator
       containers:
         - name: benchmark-operator
-          image: quay.io/benchmark-operator/benchmark-operator:master
+          image: quay.io/msheth/benchmark-operator:test
           imagePullPolicy: Always
           env:
             - name: WATCH_NAMESPACE
